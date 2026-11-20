@@ -4,6 +4,12 @@ Aplikasi pribadi untuk memudahkan kehidupan sehari-hari. Modul pertama: **Keuang
 (pencatatan pemasukan dan pengeluaran, anggaran per kategori, grafik laju belanja,
 perkiraan akhir bulan, cadangan data).
 
+## Lokasi
+
+- Kode: https://github.com/lukianprayoga-stack/lyos (branch `main`)
+- Aplikasi untuk HP (setelah GitHub Pages aktif): https://lukianprayoga-stack.github.io/lyos/
+- Versi di Claude (data tersimpan di akun Claude): artifact "LYOS"
+
 ## Isi folder
 
 | File | Fungsi |
