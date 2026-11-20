@@ -1,7 +1,7 @@
 // LYOS service worker: membuat aplikasi bisa dibuka tanpa internet.
 // Naikkan angka VERSI setiap kali file aplikasi diubah, supaya HP mengambil versi baru.
-const VERSI = "lyos-v1";
-const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
+const VERSI = "lyos-v2";
+const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/icon-maskable-512.png", "icons/logo.webp"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSI).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
